@@ -62,10 +62,6 @@ for j in range(len(ficheros)):
 
 
 
-
-
-
-
 output_file = open('tipologia_e_ingredientes.xml', 'w')
 output_file.write('<?xml version="1.0"?>')
 output_file.write(str(ElementTree.tostring(ingredientes)))
