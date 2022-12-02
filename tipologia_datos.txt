@@ -1,0 +1,138 @@
+Ánalisis del fichero: orders.csv
+
+Cantidad de nulls en total:
+0
+
+Cantidad de nulls por columnas:
+order_id    0
+date        0
+time        0
+dtype: int64
+
+Cantidad de NaN en total:
+0
+
+Cantidad de NaN por columnas:
+order_id    0
+date        0
+time        0
+dtype: int64
+
+Tipos de datos por columnas:
+order_id     int64
+date        object
+time        object
+dtype: object
+
+Ánalisis del fichero: data_dictionary.csv
+
+Cantidad de nulls en total:
+0
+
+Cantidad de nulls por columnas:
+Table          0
+Field          0
+Description    0
+dtype: int64
+
+Cantidad de NaN en total:
+0
+
+Cantidad de NaN por columnas:
+Table          0
+Field          0
+Description    0
+dtype: int64
+
+Tipos de datos por columnas:
+Table          object
+Field          object
+Description    object
+dtype: object
+
+Ánalisis del fichero: order_details.csv
+
+Cantidad de nulls en total:
+0
+
+Cantidad de nulls por columnas:
+order_details_id    0
+order_id            0
+pizza_id            0
+quantity            0
+dtype: int64
+
+Cantidad de NaN en total:
+0
+
+Cantidad de NaN por columnas:
+order_details_id    0
+order_id            0
+pizza_id            0
+quantity            0
+dtype: int64
+
+Tipos de datos por columnas:
+order_details_id     int64
+order_id             int64
+pizza_id            object
+quantity             int64
+dtype: object
+
+Ánalisis del fichero: pizzas.csv
+
+Cantidad de nulls en total:
+0
+
+Cantidad de nulls por columnas:
+pizza_id         0
+pizza_type_id    0
+size             0
+price            0
+dtype: int64
+
+Cantidad de NaN en total:
+0
+
+Cantidad de NaN por columnas:
+pizza_id         0
+pizza_type_id    0
+size             0
+price            0
+dtype: int64
+
+Tipos de datos por columnas:
+pizza_id          object
+pizza_type_id     object
+size              object
+price            float64
+dtype: object
+
+Ánalisis del fichero: pizza_types.csv
+
+Cantidad de nulls en total:
+0
+
+Cantidad de nulls por columnas:
+pizza_type_id    0
+name             0
+category         0
+ingredients      0
+dtype: int64
+
+Cantidad de NaN en total:
+0
+
+Cantidad de NaN por columnas:
+pizza_type_id    0
+name             0
+category         0
+ingredients      0
+dtype: int64
+
+Tipos de datos por columnas:
+pizza_type_id    object
+name             object
+category         object
+ingredients      object
+dtype: object
